@@ -100,7 +100,7 @@
     [self.customServersTickButton setImage:[UIImage imageNamed:@"selection_untick"] forState:UIControlStateNormal];
     [self.customServersTickButton setImage:[UIImage imageNamed:@"selection_untick"] forState:UIControlStateHighlighted];
     
-    [self hideCustomServers:YES];
+    [self hideCustomServers:NO];
     
     // The view controller dismiss itself on successful login.
     self.delegate = self;
